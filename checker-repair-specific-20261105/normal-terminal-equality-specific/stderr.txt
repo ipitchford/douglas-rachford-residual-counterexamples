@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys;sys.path.insert(0,sys.argv[1]);import optimisation_hinge_n9_exact as v;import pathlib;source=pathlib.Path(v.__file__).read_text();needle="            require(reflected[0] == delta,";source=source.replace(needle,"            reflected[0] += v.F(1)\n"+needle);exec(compile(source,v.__file__,"exec"),dict(v=v,__name__="__main__"))
+                                                                                                                                                                                                                                                                                 ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/optimisation_hinge_n9_exact.py", line 75, in <module>
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/optimisation_hinge_n9_exact.py", line 50, in main
+    require(y[0] == 0, 'Scientific guard: y[0] == 0')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/optimisation_hinge_n9_exact.py", line 12, in require
+    raise ArithmeticError(message)
+ArithmeticError: Scientific guard: reflected[0] == delta

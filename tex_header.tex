@@ -1,0 +1,19 @@
+\usepackage{amsmath,amssymb}
+\usepackage{microtype}
+\usepackage{xurl}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage{float}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Cocoercivity and Douglas--Rachford residual rates}
+\fancyhead[R]{\small Research note}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{3em}
+\setcounter{tocdepth}{2}
+\let\oldsection\section
+\renewcommand{\section}{\Needspace{6\baselineskip}\oldsection}
+\let\oldsubsection\subsection
+\renewcommand{\subsection}{\Needspace{5\baselineskip}\oldsubsection}
+

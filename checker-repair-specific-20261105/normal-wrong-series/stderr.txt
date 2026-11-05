@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys;sys.path.insert(0,sys.argv[1]);import actual_vector_series as v;v.mm=lambda a,b:[[v.O,v.Z],[v.Z,v.O]];v.main()
+                                                                                                                     ~~~~~~^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/actual_vector_series.py", line 25, in main
+    require(D==[F(9),F(0),F(-61)],"D coefficient mismatch")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/actual_vector_series.py", line 6, in require
+    if not x: raise ArithmeticError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ArithmeticError: D coefficient mismatch

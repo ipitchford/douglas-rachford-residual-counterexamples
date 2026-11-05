@@ -1,0 +1,6 @@
+Core exact checks: Python 3.11 or later, standard library only.
+Producer revision replay: CPython 3.14.7; explicit optimization-safe guards.
+Optional optimisation_series_check.py: SymPy required; not needed for core certificates.
+PDF: Pandoc and pdfTeX (TeX Live 2026); tex_header.tex is included.
+Core commands: python3 -B run_checks.py; python3 -B -O run_checks.py; python3 -B actual_vector_series.py; python3 -B test_checker_guards.py --out NEW_DIRECTORY
+All test output directories must be new; retained receipts are not overwritten.

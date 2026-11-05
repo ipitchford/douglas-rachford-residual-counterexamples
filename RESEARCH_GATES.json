@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.0",
+  "contributionMap": [
+    {
+      "claim": "The planar rotation-product method and contraction-polynomial reduction are inherited techniques, adapted to the stated residual and policy class.",
+      "unit": "method",
+      "paperLocation": "Theorems 4–6 and Corollary 6.1",
+      "searches": [{"date":"2026-11-05","query":"Krasnoselskii Mann rotation product prescribed schedules contraction polynomial von Neumann inequality","corpus":"Primary Hartz Proposition 2.3 and Sarkar–Aggarwal Appendix A comparisons in SOURCES.md"}],
+      "closestPriorWork": "Hartz Proposition 2.3; Sarkar–Aggarwal Appendix A; Gu–Yang sharp proximal bound",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Exact scalar and planar cocoercive examples refute the printed squared-residual conjecture under its stated hypotheses.",
+      "unit": "statement",
+      "paperLocation": "Propositions 1 and 2",
+      "searches": [{"date": "2026-11-05", "query": "2509.06676 Conjecture 3.5 Abbaszadehpeivasti Zamani counterexample refutation cocoercive Douglas Rachford", "corpus": "Canonical arXiv versions, bounded web searches, Evidence Press sitemap and public proof/preprint path inventories described in NOVELTY.md"}],
+      "closestPriorWork": "Abbaszadehpeivasti–Zamani, arXiv:2509.06676v2, Conjecture 3.5 and preceding monotone-operator example",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "The fixed-parameter mixed class has sharp uniform squared-residual exponent N^-1; no full-class sharp constant is claimed.",
+      "unit": "statement",
+      "paperLocation": "Theorem 4",
+      "searches": [{"date": "2026-11-05", "query": "cocoercive Douglas Rachford convergence rate residual conjecture", "corpus": "Target full text and bounded searches recorded in SOURCES.md and NOVELTY.md"}],
+      "closestPriorWork": "Standard averaged-map upper estimate; existing planar rotation constructions; target Conjecture 3.5",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Every prescribed real scalar schedule has an exact linear-class unrelaxed-residual envelope.",
+      "unit": "statement",
+      "paperLocation": "Theorem 5",
+      "searches": [{"date": "2026-11-05", "query": "Krasnoselskii Mann rotation product optimal relaxation prescribed schedules", "corpus": "Sarkar–Aggarwal Appendix A and bounded scheduling-literature searches"}],
+      "closestPriorWork": "Classical von Neumann contraction polynomial inequality and Sarkar–Aggarwal arXiv:2607.13414v1 Appendix A",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Arbitrary real adaptive scalar policies have an exact minimax value and a pathwise penalty on a horizon-dependent planar instance; historical priority is not asserted.",
+      "unit": "statement",
+      "paperLocation": "Theorem 6",
+      "searches": [{"date": "2026-11-05", "query": "optimal relaxation parameters Krasnoselskii Mann He Dong Tian Li 10.1080/02331934.2020.1767101", "corpus": "Gu–Yang exact bound, Sarkar–Aggarwal rotation product, publisher abstract and unsuccessful lawful full-text retrieval for He et al."}],
+      "closestPriorWork": "Gu–Yang equations (2.6), (4.4), Proposition 4.1; Sarkar–Aggarwal Appendix A; unresolved exact overlap with He et al. (2021)",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "For c>2, conventional-range adaptive scalars on the linear subclass have an exact minimax infimum approached at relaxation two and not attained in the open interval.",
+      "unit": "statement",
+      "paperLocation": "Corollary 6.1",
+      "searches": [{"date": "2026-11-05", "query": "optimal relaxation parameters Krasnoselskii Mann restricted scalar schedules", "corpus": "Same bounded scheduling comparison as Theorems 5–6; no separate priority claim for this elementary corollary"}],
+      "closestPriorWork": "Theorem 5 and the established rotation product; exact He et al. overlap remains inaccessible",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Exact mixed hinge/rotation witnesses and a rational perturbation family exceed elementary envelopes considered in this paper.",
+      "unit": "statement",
+      "paperLocation": "Section 6 and Appendix A",
+      "searches": [{"date": "2026-11-05", "query": "Douglas Rachford cocoercive Conjecture 3.5 counterexample", "corpus": "Target and bounded direct-refutation searches; no claim of minimal horizon or complete envelope"}],
+      "closestPriorWork": "Classical scalar proximal examples and planar rotation lower constructions",
+      "verdict": "new-in-bounded-search"
+    }
+  ],
+  "sourcesReadInFull": [
+    {
+      "citation": "Hartz (2025), Mathematische Annalen 391, 5235–5264; online 2 December 2024",
+      "usedFor": "Theorem 5 contraction polynomial bound, including nonnormal real matrices after norm-preserving complexification; scalar coefficients satisfy double commutation.",
+      "readWhat": "Section 2 definitions and Proposition 2.3 with its complete Poisson-kernel proof. Passage-level inspection only, not the entire article. The real-to-complex norm identity and affine disk substitution were checked separately.",
+      "date": "2026-11-05",
+      "evidenceLocator": "https://link.springer.com/article/10.1007/s00208-024-03040-2"
+    },
+    {
+      "citation": "Abbaszadehpeivasti–Zamani (2025), arXiv:2509.06676v2, dated 13 September 2025",
+      "usedFor": "Exact target assumptions, bound and distinction from objective-value conjectures; canonical history listed v2 as latest.",
+      "readWhat": "Canonical version history; Conjecture 3.5 and preceding example/context in Section 3. This entry records inspected passages, not a claim that every proof was read.",
+      "date": "2026-11-05",
+      "evidenceLocator": "https://arxiv.org/html/2509.06676v2"
+    },
+    {
+      "citation": "Gu–Yang (2019), arXiv:1904.05495v2, dated 12 July 2019",
+      "usedFor": "Inherited sharp firmly nonexpansive residual upper bound with source index N equal to manuscript m.",
+      "readWhat": "Equation (2.6), Proposition 4.1, equation (4.4), and Section 5 matching-instance passages. Not an independent verification of every source proof.",
+      "date": "2026-11-05",
+      "evidenceLocator": "https://arxiv.org/pdf/1904.05495v2"
+    },
+    {
+      "citation": "Sarkar–Aggarwal (2026), arXiv:2607.13414v1, dated 15 July 2026",
+      "usedFor": "Existing fixed-schedule planar rotation product and residual construction; antecedent of the adaptive synthesis.",
+      "readWhat": "Theorem 4.1 and Appendix A proof of Theorem 4.1, including the explicit product and squared-chordal-distance parameter. Other sections not audited.",
+      "date": "2026-11-05",
+      "evidenceLocator": "https://arxiv.org/html/2607.13414v1"
+    }
+  ],
+  "limitationTriage": [
+    {
+      "limitation": "Conventional relaxation interval for the linear subclass",
+      "closingQuestion": "Can the exact adaptive infimum be identified when every scalar lies in (0,2) and c>2?",
+      "triedOrSearched": "Boundary-rotation factor monotonicity and Theorem 5 give Corollary 6.1, including strict nonattainment and constant policies approaching the endpoint.",
+      "estimatedCost": "Short analytic corollary",
+      "cheap": true,
+      "decision": "CLOSED",
+      "reasonOpen": "",
+      "whyNotClosedNow": ""
+    },
+    {
+      "limitation": "Exact mixed-class finite-horizon supremum",
+      "closingQuestion": "Can a universal sharp envelope replace the two elementary candidate envelopes?",
+      "triedOrSearched": "Exact hinge examples disprove the elementary repair; standard upper bound and rotation lower bound establish order only.",
+      "estimatedCost": "Substantial research; duration unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Finite certificates and numerical exploration do not establish a universal nonlinear mixed-class envelope.",
+      "whyNotClosedNow": "No matching universal upper certificate is supplied."
+    },
+    {
+      "limitation": "Full nonlinear restricted-policy minimax",
+      "closingQuestion": "Does Corollary 6.1 extend to nonlinear B with the same exact value?",
+      "triedOrSearched": "Linear polynomial envelope and common planar lower instance inspected; Theorem 6 upper bound uses a scalar outside (0,2) when c>2.",
+      "estimatedCost": "Substantial research; duration unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "The linear contraction polynomial argument does not supply the nonlinear upper bound.",
+      "whyNotClosedNow": "No justified nonlinear replacement or matching bound obtained."
+    },
+    {
+      "limitation": "He et al. (2021) exact overlap",
+      "closingQuestion": "Does the earlier optimal-relaxation theorem subsume the adaptive minimax formulation?",
+      "triedOrSearched": "Publisher abstract https://www.tandfonline.com/doi/abs/10.1080/02331934.2020.1767101 inspected; publisher full/PDF unavailable, direct PDF HTTP403, DOI/title repository search and OpenAlex found no full text.",
+      "estimatedCost": "Requires lawful full-text access; unknown",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Abstract does not determine metric, parameter restrictions and exact adaptive quantifiers.",
+      "whyNotClosedNow": "No accessible full text located; no historical-priority claim is made for Theorem 6 or Corollary 6.1."
+    },
+    {
+      "limitation": "Objective acceleration conjectures and fixed-instance asymptotics",
+      "closingQuestion": "Do the counterexamples settle objective-value conjectures or a single-instance asymptotic lower rate?",
+      "triedOrSearched": "Target scope compared with rotational hypotheses; horizon dependence explicitly distinguished from geometric convergence of fixed examples.",
+      "estimatedCost": "Separate research problems",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "Different hypotheses or quantifiers; current evidence does not prove these statements.",
+      "whyNotClosedNow": "No inference from finite residual refutations to objective rates or fixed-instance lower asymptotics is justified."
+    },
+    {
+      "limitation": "Historical completeness",
+      "closingQuestion": "Can absence of any prior publication be guaranteed?",
+      "triedOrSearched": "Dated primary-source comparisons and bounded public web, Evidence Press sitemap, TrureTuring Blueprint paths and OpenAI preprint-title inventories described in NOVELTY.md.",
+      "estimatedCost": "Unbounded literature coverage",
+      "cheap": false,
+      "decision": "OPEN",
+      "reasonOpen": "No finite negative search proves absolute originality; path/title searches are not exhaustive full-text checks.",
+      "whyNotClosedNow": "Differently titled, unindexed and inaccessible work remains possible."
+    }
+  ],
+  "extensionScout": {
+    "by": "Internal AI-assisted mathematical development and source comparison",
+    "date": "2026-11-05",
+    "proposals": ["Conventional-range adaptive linear minimax", "Exact nonlinear mixed-class envelope", "Nonlinear restricted-policy minimax", "Fixed-instance asymptotic or objective-value strengthening"],
+    "actions": ["Added elementary Corollary 6.1 with infimum/nonattainment distinction and no separate priority claim", "Retained exact hinge obstructions and left universal sharp constant open", "Kept nonlinear restricted-policy question separate from proved linear corollary", "Preserved scope limitations; did not convert numerical evidence or horizon-dependent examples into stronger claims"]
+  }
+}

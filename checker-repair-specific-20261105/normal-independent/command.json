@@ -1,0 +1,1 @@
+["/opt/homebrew/opt/python@3.14/bin/python3.14", "-B", "-c", "import sys;sys.path.insert(0,sys.argv[1]);import runpy;runpy.run_module(\"independent_exact_verifier\",run_name=\"__main__\")", "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas"]

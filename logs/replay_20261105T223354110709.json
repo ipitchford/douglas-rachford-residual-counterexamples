@@ -1,0 +1,42 @@
+{
+  "time_utc": "2026-11-05T22:33:54.102667+00:00",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "assertions_enabled": false,
+  "scientific_guards": "explicit exceptions; optimization-safe",
+  "runs": [
+    {
+      "script": "optimisation_exact_checks.py",
+      "baseline": "optimisation_exact_checks.json",
+      "all_recorded_fields_match": true,
+      "elapsed_seconds": 0.024861,
+      "stderr": ""
+    },
+    {
+      "script": "independent_exact_verifier.py",
+      "baseline": "independent_exact_report.json",
+      "all_recorded_fields_match": true,
+      "elapsed_seconds": 0.116838,
+      "stderr": ""
+    },
+    {
+      "script": "optimisation_hinge_n9_exact.py",
+      "baseline": "optimisation_hinge_n9_exact.json",
+      "all_recorded_fields_match": true,
+      "elapsed_seconds": 0.024602,
+      "stderr": ""
+    },
+    {
+      "script": "reviewer_hinge_check.py",
+      "baseline": "reviewer_hinge_check.json",
+      "all_recorded_fields_match": true,
+      "elapsed_seconds": 0.026261,
+      "stderr": ""
+    }
+  ],
+  "additional_ninth_evaluation_certificate": true,
+  "exact_counterexample_cross_comparisons": 5,
+  "finite_schedule_identity_combinations": 360,
+  "result": "PASS",
+  "scope": "finite rational certificates and finite identity checks; not formal universal proof"
+}

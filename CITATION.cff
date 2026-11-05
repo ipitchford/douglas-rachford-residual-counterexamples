@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this unrefereed AI-assisted candidate with its version and limitations."
+title: "Cocoercivity does not give a quadratic residual rate for Douglas–Rachford splitting"
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+date-released: 2026-11-05
+doi: 10.5281/zenodo.23990902
+license: CC0-1.0
+repository-code: https://github.com/ipitchford/douglas-rachford-residual-counterexamples

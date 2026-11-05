@@ -1,0 +1,1 @@
+["/opt/homebrew/opt/python@3.14/bin/python3.14", "-B", "-c", "import sys;sys.path.insert(0,sys.argv[1]);import optimisation_exact_checks as v;from fractions import Fraction as F;v.hinge_case(8,F(2,25),F(10,59),1,F(1,2),F(1))", "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas"]

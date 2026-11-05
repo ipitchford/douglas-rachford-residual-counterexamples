@@ -1,0 +1,21 @@
+name: Exact checks
+on: [push, pull_request]
+jobs:
+  exact:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Standard-library exact replay
+        run: python -B run_checks.py
+      - name: Optimized exact replay
+        run: python -B -O run_checks.py
+      - name: Actual-vector coefficients and guard sensitivity
+        run: |
+          python -B actual_vector_series.py
+          python -B test_checker_guards.py --out /tmp/guard-checks

@@ -1,0 +1,1 @@
+{"ratio_coefficients": ["1/81", "0", "5/729"], "status": "PASS", "scope": "Exact degree-two coefficients only; analytic remainder and branch validity require written proof"}

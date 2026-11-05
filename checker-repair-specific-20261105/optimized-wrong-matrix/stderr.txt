@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys;sys.path.insert(0,sys.argv[1]);import independent_exact_verifier as v;v.mm=lambda a,b:v.I;v.check_simple_counterexample()
+                                                                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/independent_exact_verifier.py", line 44, in check_simple_counterexample
+    require(mm(mt(b), b) == scale(F(1, 50), I), 'Scientific guard: mm(mt(b), b) == scale(F(1, 50), I)')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/independent_exact_verifier.py", line 14, in require
+    raise ArithmeticError(message)
+ArithmeticError: Scientific guard: mm(mt(b), b) == scale(F(1, 50), I)

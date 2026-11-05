@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys;sys.path.insert(0,sys.argv[1]);import optimisation_hinge_n9_exact as v;v.multiply=lambda a,b:[[v.F(1),v.F(0)],[v.F(0),v.F(1)]];v.main()
+                                                                                                                                              ~~~~~~^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/optimisation_hinge_n9_exact.py", line 47, in main
+    require(y[0] > 0, 'Scientific guard: y[0] > 0')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/optimisation_hinge_n9_exact.py", line 12, in require
+    raise ArithmeticError(message)
+ArithmeticError: Scientific guard: y[0] > 0

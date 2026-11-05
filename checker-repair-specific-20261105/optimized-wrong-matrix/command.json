@@ -1,0 +1,1 @@
+["/opt/homebrew/opt/python@3.14/bin/python3.14", "-B", "-O", "-c", "import sys;sys.path.insert(0,sys.argv[1]);import independent_exact_verifier as v;v.mm=lambda a,b:v.I;v.check_simple_counterexample()", "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas"]

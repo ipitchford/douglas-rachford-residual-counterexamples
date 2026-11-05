@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys;sys.path.insert(0,sys.argv[1]);import optimisation_exact_checks as v;from fractions import Fraction as F;v.hinge_case(8,F(2,25),F(10,59),1,F(1,2),F(1))
+                                                                                                                        ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/optimisation_exact_checks.py", line 50, in hinge_case
+    require(normalised_residual2 > normalised_bound, 'Scientific guard: normalised_residual2 > normalised_bound')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/optimisation_exact_checks.py", line 12, in require
+    raise ArithmeticError(message)
+ArithmeticError: Scientific guard: normalised_residual2 > normalised_bound

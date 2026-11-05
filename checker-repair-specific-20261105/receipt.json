@@ -1,0 +1,287 @@
+{
+  "at": "2026-11-05T22:35:32.432289+00:00",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "passed": true,
+  "exactModeAgreement": true,
+  "cases": [
+    {
+      "case": "normal-primary",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "c877c0ae1103fe372e85e9005ce6b84bde99b4ced73b1962374cb92fbf43f6c8",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "67cd6c4a7652f34fa46bf0cd8585217a7959ed040a58d34dc5ea8f549b587623"
+      }
+    },
+    {
+      "case": "normal-independent",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "f5879a68e4c400c780ce1b683037eb30e735eb466681caeb15000708d5089683",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "870598d730bb4f53bebc929ddb48c572f662fec3f097cbe2f5494e19a6c4cf76"
+      }
+    },
+    {
+      "case": "normal-nine",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "c6ae3686dce328666f6cc76fa1790d27265463c8a9ed10533981da73053cecc1",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "47e6eff23c8da62347556bfd65e847c75dc09bcb9866303a4be560bbee99b7f5"
+      }
+    },
+    {
+      "case": "normal-independent-nine",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "7a45cd6aed07d392e69391d8ca581baf1d1015c290e1695b39bf251b3d17ef7e",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "fa1d9fecb46428866b9f344046255a4b391b763061bbd672f40a9bdbe1b89259"
+      }
+    },
+    {
+      "case": "normal-actual-vector",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "18584b2dbb21fc5dad9b30f90e87eec4f09c6e6c3ef9ec1a5f1a0bc92a786a50",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "a9b59dcd5577ecaf077be1ed895de214b40d79a180290985fe41c9aae98e288a"
+      }
+    },
+    {
+      "case": "normal-nonviolating-horizon",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "989dd73b064e92e6e0988607b40f4c0e99de2da7dd1ed007f8e956ee94546044",
+        "command.json": "d0eae711ea2d172d7ebd9bcc1a8f0f7de5158c3c6300cce50b685bd275e9697e"
+      }
+    },
+    {
+      "case": "normal-wrong-matrix",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "b8b61dff7dc72358cb6be7d448a6870af8ee9e0d1696c61708be516968001f95",
+        "command.json": "f61c8fa9be4cb424f0ebad56af56c030a5e8bb0a4ca30611a68a17c5cef49f05"
+      }
+    },
+    {
+      "case": "normal-wrong-terminal",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "f839a866339b166f2b7658ab7f8718dd8994301f7095c147ec0a7542e6756403",
+        "command.json": "edbe3a90f1bd4f0008dd10efdd32fe7b2e25e0513b5f83acaae519e2513dcb59"
+      }
+    },
+    {
+      "case": "normal-wrong-series",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "a55cbf77a7a849271db0b1252131e7d3db08ac0de7b853945d9230aea6e92562",
+        "command.json": "e8e019767023055010e0ed0ce97b937f4ed1aacd59b2996783dbc1614f121e1e"
+      }
+    },
+    {
+      "case": "normal-incompatible-field",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "695b1de497216c2371a35815f877a283fcd69f334531cb6405dc2ee0aff9a286",
+        "command.json": "b60398008bb5fa0ed2ebf16613951a8c62b812cc7691ebe93e1195736a4f7e99"
+      }
+    },
+    {
+      "case": "normal-terminal-equality-specific",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": "ArithmeticError: Scientific guard: reflected[0] == delta",
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "8d689ac4ebce26f7b987ab985ba118ae9f9a13414adf6a5a4192bfdee8cc6e75",
+        "command.json": "8b1a58d5efef41ae4b23a315e6d42d925b2e0e84bc6935e2344e5585c9db01e5"
+      }
+    },
+    {
+      "case": "normal-actual-vector-specific",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": "ArithmeticError: Actual vector coefficient mismatch",
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "a36fd471408ab88f7c23168d080f4e6ad50883ae68b4d740e2600763edaab5c7",
+        "command.json": "45d42a05ac5f1a5e4f3a1763f1c9d14eb90c06fbed190c09edbc7ed20fa7ff51"
+      }
+    },
+    {
+      "case": "optimized-primary",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "c877c0ae1103fe372e85e9005ce6b84bde99b4ced73b1962374cb92fbf43f6c8",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "6284261793177ed7b7482d741ae624743223788c227eb27e195ba5127897a66b"
+      }
+    },
+    {
+      "case": "optimized-independent",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "f5879a68e4c400c780ce1b683037eb30e735eb466681caeb15000708d5089683",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "ae0b98a67d2e8a96220d304fce85a7ad629844e40d8c88fbc1a0f1026492874e"
+      }
+    },
+    {
+      "case": "optimized-nine",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "c6ae3686dce328666f6cc76fa1790d27265463c8a9ed10533981da73053cecc1",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "73e7d4bb23519e6edb73d7527285f07a8040e8da937a4817da212626bee6bc63"
+      }
+    },
+    {
+      "case": "optimized-independent-nine",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "7a45cd6aed07d392e69391d8ca581baf1d1015c290e1695b39bf251b3d17ef7e",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "bda34a243eaf0a9a640bea38070aef9f1fc858d9a969e60d3d3c1597bf6ddcf8"
+      }
+    },
+    {
+      "case": "optimized-actual-vector",
+      "passed": true,
+      "returncode": 0,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "18584b2dbb21fc5dad9b30f90e87eec4f09c6e6c3ef9ec1a5f1a0bc92a786a50",
+        "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "command.json": "cde8e87ac86ffa5144b2bb50159930ec23f84f69dba946d43389d1723538e679"
+      }
+    },
+    {
+      "case": "optimized-nonviolating-horizon",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "989dd73b064e92e6e0988607b40f4c0e99de2da7dd1ed007f8e956ee94546044",
+        "command.json": "fe730c8a156b4b9320dc8258e65a3dce2e3273cf400893c0c7dc1e881b546eca"
+      }
+    },
+    {
+      "case": "optimized-wrong-matrix",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "b8b61dff7dc72358cb6be7d448a6870af8ee9e0d1696c61708be516968001f95",
+        "command.json": "f01e33586334e13935bfd0c4465d24a419dd703055c128bcaff2643a9b96fbf2"
+      }
+    },
+    {
+      "case": "optimized-wrong-terminal",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "f839a866339b166f2b7658ab7f8718dd8994301f7095c147ec0a7542e6756403",
+        "command.json": "dd41d4f4a162a407c40320d343da6b74a5a6fe03d0294d655438cfb50ee8768a"
+      }
+    },
+    {
+      "case": "optimized-wrong-series",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "a55cbf77a7a849271db0b1252131e7d3db08ac0de7b853945d9230aea6e92562",
+        "command.json": "6159cb1f16b9b4ae98514c9698e41107d19034c3728ec7daa487536c7e74dbfd"
+      }
+    },
+    {
+      "case": "optimized-incompatible-field",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": null,
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "695b1de497216c2371a35815f877a283fcd69f334531cb6405dc2ee0aff9a286",
+        "command.json": "e963a8d9723591e56e61b5b5a41874fbdf6006f2400624e1e85645436f6f188f"
+      }
+    },
+    {
+      "case": "optimized-terminal-equality-specific",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": "ArithmeticError: Scientific guard: reflected[0] == delta",
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "8d689ac4ebce26f7b987ab985ba118ae9f9a13414adf6a5a4192bfdee8cc6e75",
+        "command.json": "b13f8c3e55fd3259a8825dbd3a4949f76e5c86754689b7e018745845fd152531"
+      }
+    },
+    {
+      "case": "optimized-actual-vector-specific",
+      "passed": true,
+      "returncode": 1,
+      "expectedError": "ArithmeticError: Actual vector coefficient mismatch",
+      "hashes": {
+        "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr.txt": "a36fd471408ab88f7c23168d080f4e6ad50883ae68b4d740e2600763edaab5c7",
+        "command.json": "72127710702a7fd6f5911723e892615271e0077fe4f4cce52e7096201c1a2673"
+      }
+    }
+  ],
+  "sourceSha256": {
+    "optimisation_hinge_n9_exact.py": "1addaa7c739aec91141f4ce29962d24a925027161ec988a83aabab38ef6d39aa",
+    "optimisation_objective_pep.py": "9af4f35097684a90dcdb77b7b05b186a1ea5eafa80c7fd81a4d26ed557b09b94",
+    "optimisation_hinge_search.py": "f2dde9679b5e290455fbec5ac94f65fd571f3d0461f4a864663010513ef51cd4",
+    "optimisation_residual_pep.py": "464c6d93dec62c9a8468c0fb4b927a8c20079efe2dd178c1838622f8eaaa8de1",
+    "run_checks.py": "24f7b4a610c8f11dc6556805a864034cfd3c3f44d830cc6534d787a27579be8b",
+    "actual_vector_series.py": "565944195acc7b17fe75b8a8ce6531a2f5db88d0f8137e4db9cf701787b1ccb1",
+    "independent_exact_verifier.py": "22d4f4a6ad5034359cf38a892a9b818bcf7adc0b2525c127694b483f35e7afa5",
+    "reviewer_hinge_check.py": "18c70f25d908c446fd19c3c2fb9cfb02209d6a95090892287d537010ee2cf41f",
+    "test_checker_guards.py": "273f3b779b4bb7a1966f9eb172161c75910ddf77f47d384c507b5b7190722277",
+    "optimisation_exact_checks.py": "27992f8e7ec75db8669aef182051c30d17ae0d80b32fd636292c949d88317a4a",
+    "optimisation_series_check.py": "bb398e3f2fc14e7b3546140a0255fc78a2d7f3d525aa7665697cf016e39c80ef",
+    "build_figure.py": "05f37fca102974acbcf506edc053238005cb2cf789dc6de5cfcf66c32f6723a0"
+  },
+  "scope": "Finite examples, coefficients and guard sensitivity; not universal proof or novelty verification"
+}

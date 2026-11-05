@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys;sys.path.insert(0,sys.argv[1]);import actual_vector_series as v;import pathlib;source=pathlib.Path(v.__file__).read_text();needle="    require(ratio==";source=source.replace(needle,"    ratio[2] += F(1)\n"+needle);exec(compile(source,v.__file__,"exec"),dict(__name__="__main__"))
+                                                                                                                                                                                                                                     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/actual_vector_series.py", line 37, in <module>
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/actual_vector_series.py", line 35, in main
+    print(json.dumps({"ratio_coefficients":[str(x) for x in ratio],"status":"PASS","scope":"Exact degree-two coefficients only; analytic remainder and branch validity require written proof"}))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/admin/PublicationWork/remaining-bundles-20261105-2026-11-05-IDFXCB/revised-douglas/actual_vector_series.py", line 6, in require
+    if not x: raise ArithmeticError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ArithmeticError: Actual vector coefficient mismatch

@@ -1,0 +1,51 @@
+{
+  "arithmetic": "Python standard library fractions.Fraction",
+  "scalar_counterexample": {
+    "residual_squared": "9/16",
+    "conjectured_bound": "81/196",
+    "ratio": "49/36"
+  },
+  "simple_counterexample": {
+    "first_violating_N": 18,
+    "residual_squared_at_N20_exact": "549755813888000000000000000000/180167782956420929503029846064801",
+    "conjectured_bound_at_N20_exact": "1/400",
+    "residual_squared_at_N20_decimal": 0.0030513547142941486
+  },
+  "hinge_counterexample_N10": {
+    "N": 10,
+    "branches": [
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "flat"
+    ],
+    "normalized_residual_squared_exact": "6578298910134432006213916057893377229621503526196/651365196008690968049604037172716818027496337890625",
+    "normalized_residual_squared_decimal": 0.010099248394669616,
+    "conjectured_bound_exact": "1/100",
+    "rotation_envelope_exact": "387420489/50000000000"
+  },
+  "hinge_counterexample_N3": {
+    "N": 3,
+    "branches": [
+      "positive",
+      "positive",
+      "positive"
+    ],
+    "normalized_residual_squared_exact": "7519731728788445149/47645095346903200000",
+    "normalized_residual_squared_decimal": 0.15782803400932235,
+    "conjectured_bound_exact": "361/2304",
+    "rotation_envelope_exact": "4/33"
+  },
+  "minimax_penalty": {
+    "rational_schedule_checks": 360,
+    "identity": "exact equality and lower bound passed",
+    "scope": "finite consistency checks; general proof remains algebraic"
+  },
+  "result": "all exact checks passed"
+}
